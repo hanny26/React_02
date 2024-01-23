@@ -5,7 +5,7 @@ function Github() {
    
     const [data, setData] = React.useState([])
     useEffect(() => {
-       fetch('https://api.github.com/users/hanny26').then((response)=> response.json())
+       fetch('https://api.github.com/users/hiteshchoudhary').then((response)=> response.json())
        .then(data => {
         console.log(data)
         setData(data)
